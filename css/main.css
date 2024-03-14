@@ -120,3 +120,15 @@ ul li::before {
 .project p {
     font-size: 1.25em;
 }
+
+@media screen and (max-width: 767px) {
+    .row {
+        display: block;
+    }
+    .row_left {
+        width: 100%;
+    }
+    .tech_skills {
+        margin-bottom: 32px;
+    }
+}
