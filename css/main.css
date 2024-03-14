@@ -1,0 +1,122 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    line-height: 1.3;
+	font-family: "Pretendard Variable", Pretendard;
+    color: #2b2b2b;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+b {
+    color: #00ad7a;
+}
+p {
+    word-break: keep-all;
+}
+body {
+    padding: 0 24px;
+}
+h1 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+h2 {
+    font-size: 2em;
+    margin-bottom: 32px;
+}
+h3 {
+    font-size: 1.75em;
+    margin-bottom: 32px;
+}
+h4 {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+a {
+    font-weight: 700;
+    color: rgba(0, 188, 144, 0.5);
+}
+a:hover{
+    color: rgba(0, 188, 144, 0.8);
+}
+section {
+    margin: 50px 0 0;
+    padding-bottom: 75px;
+    border-bottom: 1px solid #e5e5e5;
+}
+ul li {
+    position: relative;
+    padding: 4px 0 4px 16px;
+}
+ul li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #00BC90;
+}
+
+.content_wrapper {
+    max-width: 768px;
+    margin: 0 auto;
+}
+.intro p {
+    font-size: 1.5em;
+}
+.tech_skills {
+    font-size: 1.25em;
+}
+.tech_skills > div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.5em;
+}
+.tech_skills span {
+    font-size: 1em;
+    padding: 2px 4px;
+    background-color: rgba(0, 188, 144, 0.1);
+    color: #00ad7a;
+    border-radius: 4px;
+    margin: 0 5px 5px 0;
+}
+.row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.row_left {
+   flex-shrink: 0;
+   width: 200px;
+}
+.row_right {
+    flex-grow: 1;
+}
+.project {
+    margin-bottom: 50px;
+}
+.project > *:not(h3) {
+    display: block;
+    margin-bottom: 16px;
+}
+.project p {
+    font-size: 1.25em;
+}
